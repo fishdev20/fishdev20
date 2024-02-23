@@ -3,6 +3,8 @@
 - 🌱 My main jam are ReactJs, Javascript and Typescript!
 - 📫 How to reach me ...
 
+<img src="banner.gif" alt="banner"/>
+
 <img src="aboutme.gif" width="204px" height="240px" align="right">
 
 ![image](https://user-images.githubusercontent.com/85005930/195042903-0374a59d-7c26-4ed2-920f-25e90944ca88.png)
