@@ -1,7 +1,7 @@
 
 
 <img src="banner.gif" width="100%">
-<img src="aboutme.gif" align="right">
+<img src="naruto.gif" width="100%" height="400px" align="center">
 
 - 👋 Hi, I’m @fishdev20 aka Marcus
 - 👀 I’m interested in web development and crypto...
