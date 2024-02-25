@@ -5,7 +5,7 @@
 
 - 👋 Hi, I’m @fishdev20 aka Marcus
 - 👀 I’m interested in web development and crypto...
-- 🌱 My main jam are ReactJs, Javascript and Typescript!
+- 🌱 My main jam are Typescript, ReactJs, NodeJs, ElectronJs,...!
 - 📫 How to reach me ...
 
 <!---
