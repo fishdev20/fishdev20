@@ -4,6 +4,8 @@
 <h3 align="center">A progressive Software Engineer</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=fishdev20" alt="fishdev20" /></a> </p>
+![image](https://github.com/user-attachments/assets/c51f775e-80fa-43db-9baf-4488228efcd5)
+
 <p align="left">
 - 👨‍💻 All of my projects are available at [https://marcusng.vercel.app/]
 
