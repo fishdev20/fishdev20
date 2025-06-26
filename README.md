@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=fishdev20" alt="fishdev20" /></a> </p>
 <p align="left">
-- 👨‍💻 All of my projects are available at [https://marcusng.vercel.app/](https://marcusng.vercel.app/)
+- 👨‍💻 All of my projects are available at [https://marcusng.vercel.app/]
 
 - 💬 Ask me about **typescript, reactjs, nextjs, nodejs, electron**
 
