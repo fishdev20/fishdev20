@@ -3,8 +3,6 @@
 <h1 align="center">Hi 👋, I'm Marcus</h1>
 <h3 align="center">A progressive Software Engineer</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=fishdev20" alt="fishdev20" /></a> </p>
-
 <p align="left">
 - 👨‍💻 All of my projects are available at [https://marcusng.vercel.app/]
 
@@ -17,7 +15,6 @@
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/minh-nguyen20/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/minh-nguyen20/" height="30" width="40" /></a>
 </p>
-<img src="naruto.gif" align="right">
 
 
 <h3 align="left">Languages and Tools:</h3>
