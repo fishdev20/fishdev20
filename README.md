@@ -62,30 +62,17 @@
 <h2><img src="https://cdn.simpleicons.org/gitbook/ffffff" width="16" alt="top languages icon" /> Top Languages</h2>
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- TOP_LANGUAGES:START -->
-```text
-TypeScript   [█████████████████░░░] 84.11%
-JavaScript   [██░░░░░░░░░░░░░░░░░░] 7.57%
-CSS          [█░░░░░░░░░░░░░░░░░░░] 3.82%
-SCSS         [░░░░░░░░░░░░░░░░░░░░] 2.34%
-Java         [░░░░░░░░░░░░░░░░░░░░] 0.66%
-HTML         [░░░░░░░░░░░░░░░░░░░░] 0.65%
-PLpgSQL      [░░░░░░░░░░░░░░░░░░░░] 0.48%
-EJS          [░░░░░░░░░░░░░░░░░░░░] 0.29%
-Go           [░░░░░░░░░░░░░░░░░░░░] 0.05%
-Dockerfile   [░░░░░░░░░░░░░░░░░░░░] 0.03%
-```
+<pre>
+Run `python readme.py` to generate this section.
+</pre>
 <!-- TOP_LANGUAGES:END -->
 
 <h2><img src="https://cdn.simpleicons.org/github/ffffff" width="16" alt="activity icon" /> Activity Feed</h2>
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- PROFILE_STATS:START -->
-```text
-📦 Public Repos : 41
-👥 Followers    : 0
-➡️ Following   : 0
-⭐ Repo Stars   : 28
-🍴 Repo Forks   : 1
-```
+<pre>
+Run `python readme.py` to generate this section.
+</pre>
 <!-- PROFILE_STATS:END -->
 
 <h2><img src="https://cdn.simpleicons.org/steam/ffffff" width="16" alt="contact icon" /> Co-op Mode</h2>

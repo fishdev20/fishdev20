@@ -184,7 +184,7 @@ def render_block(language_totals: Dict[str, int]) -> str:
         percent = (byte_count / grand_total) * 100.0
         lines.append(format_line(language, percent))
 
-    return "```text\n" + "\n".join(lines) + "\n```"
+    return "<pre>\n" + "\n".join(lines) + "\n</pre>"
 
 
 def render_profile_stats_block(user_profile: Dict[str, int], repos: List[Repo]) -> str:
@@ -199,9 +199,8 @@ def render_profile_stats_block(user_profile: Dict[str, int], repos: List[Repo]) 
         ("🍴 Repo Forks", total_forks),
     ]
 
-    label_width = max(len(label) for label, _ in items)
-    lines = [f"{label.ljust(label_width)} : {value}" for label, value in items]
-    return "```text\n" + "\n".join(lines) + "\n```"
+    lines = [f"{label}: {value}" for label, value in items]
+    return "<pre>\n" + "\n".join(lines) + "\n</pre>"
 
 
 def replace_marked_block(
