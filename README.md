@@ -24,16 +24,6 @@
 </p>
 
 ## Player Profile
-```text
-+--------------------------------------------------------+
-| NAME      : Marcus Nguyen                              |
-| CLASS     : Progressive Software Engineer              |
-| SPECIALTY : Product polish + engineering quality       |
-| TOOLSET   : TypeScript / React / Next.js / Node       |
-+--------------------------------------------------------+
-```
-
-- I ship with `TypeScript`, `React`, `Next.js`, `Node.js`, and `Electron`.
 - I enjoy turning ambiguous ideas into reliable products.
 - I care about clean architecture, developer experience, and measurable impact.
 
