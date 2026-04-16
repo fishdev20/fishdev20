@@ -63,7 +63,16 @@
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- TOP_LANGUAGES:START -->
 <pre>
-Run `python readme.py` to generate this section.
+TypeScript   [█████████████████░░░] 84.11%
+JavaScript   [██░░░░░░░░░░░░░░░░░░] 7.57%
+CSS          [█░░░░░░░░░░░░░░░░░░░] 3.82%
+SCSS         [░░░░░░░░░░░░░░░░░░░░] 2.34%
+Java         [░░░░░░░░░░░░░░░░░░░░] 0.66%
+HTML         [░░░░░░░░░░░░░░░░░░░░] 0.65%
+PLpgSQL      [░░░░░░░░░░░░░░░░░░░░] 0.48%
+EJS          [░░░░░░░░░░░░░░░░░░░░] 0.29%
+Go           [░░░░░░░░░░░░░░░░░░░░] 0.05%
+Dockerfile   [░░░░░░░░░░░░░░░░░░░░] 0.03%
 </pre>
 <!-- TOP_LANGUAGES:END -->
 
@@ -71,7 +80,11 @@ Run `python readme.py` to generate this section.
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- PROFILE_STATS:START -->
 <pre>
-Run `python readme.py` to generate this section.
+📦 Public Repos: 41
+👥 Followers: 0
+➡️ Following: 0
+⭐ Repo Stars: 28
+🍴 Repo Forks: 1
 </pre>
 <!-- PROFILE_STATS:END -->
 
