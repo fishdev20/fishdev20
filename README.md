@@ -23,11 +23,11 @@
   </a>
 </p>
 
-## Player Profile
+<h2><img src="https://cdn.simpleicons.org/gamejolt/ffffff" width="16" alt="profile icon" /> Player Profile</h2>
 - I enjoy turning ambiguous ideas into reliable products.
 - I care about clean architecture, developer experience, and measurable impact.
 
-## Stack - Core
+<h2><img src="https://cdn.simpleicons.org/stackshare/ffffff" width="16" alt="core stack icon" /> Stack - Core</h2>
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React-149eca?style=flat-square&logo=react&logoColor=white" alt="React" />
@@ -42,7 +42,7 @@
   <img src="https://img.shields.io/badge/Tailwind-0f7490?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 </p>
 
-## Stack - Extended
+<h2><img src="https://cdn.simpleicons.org/tooljet/ffffff" width="16" alt="extended stack icon" /> Stack - Extended</h2>
 <p>
   <img src="https://img.shields.io/badge/GraphQL-e10098?style=flat-square&logo=graphql&logoColor=white" alt="GraphQL" />
   <img src="https://img.shields.io/badge/Express-252525?style=flat-square&logo=express&logoColor=white" alt="Express" />
@@ -59,7 +59,7 @@
   <img src="https://img.shields.io/badge/Git-f05033?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
-## Top Languages
+<h2><img src="https://cdn.simpleicons.org/gitbook/ffffff" width="16" alt="top languages icon" /> Top Languages</h2>
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- TOP_LANGUAGES:START -->
 ```text
@@ -76,7 +76,7 @@ Dockerfile   [░░░░░░░░░░░░░░░░░░░░] 0.03
 ```
 <!-- TOP_LANGUAGES:END -->
 
-## Activity Feed
+<h2><img src="https://cdn.simpleicons.org/github/ffffff" width="16" alt="activity icon" /> Activity Feed</h2>
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- PROFILE_STATS:START -->
 ```text
@@ -88,9 +88,9 @@ Repo Forks   : 1
 ```
 <!-- PROFILE_STATS:END -->
 
-## Co-op Mode
+<h2><img src="https://cdn.simpleicons.org/steam/ffffff" width="16" alt="contact icon" /> Co-op Mode</h2>
 If you're building something interesting, feel free to reach out:
 
-- Email: `minhnguyen.dev20@gmail.com`
-- LinkedIn: `linkedin.com/in/minh-nguyen20`
-- Portfolio: `marcusng.vercel.app`
+- <img src="https://cdn.simpleicons.org/gmail/EA4335" width="14" alt="email icon" /> Email: `minhnguyen.dev20@gmail.com`
+- <img src="https://cdn.simpleicons.org/linkedin/0A66C2" width="14" alt="linkedin icon" /> LinkedIn: `linkedin.com/in/minh-nguyen20`
+- <img src="https://cdn.simpleicons.org/vercel/ffffff" width="14" alt="portfolio icon" /> Portfolio: `marcusng.vercel.app`

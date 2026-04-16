@@ -192,11 +192,11 @@ def render_profile_stats_block(user_profile: Dict[str, int], repos: List[Repo]) 
     total_forks = sum(repo.forks_count for repo in repos)
 
     items = [
-        ("Public Repos", user_profile["public_repos"]),
-        ("Followers", user_profile["followers"]),
-        ("Following", user_profile["following"]),
-        ("Repo Stars", total_stars),
-        ("Repo Forks", total_forks),
+        ("📦 Public Repos", user_profile["public_repos"]),
+        ("👥 Followers", user_profile["followers"]),
+        ("➡️ Following", user_profile["following"]),
+        ("⭐ Repo Stars", total_stars),
+        ("🍴 Repo Forks", total_forks),
     ]
 
     label_width = max(len(label) for label, _ in items)
