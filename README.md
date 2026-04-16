@@ -77,13 +77,12 @@ Dockerfile   [░░░░░░░░░░░░░░░░░░░░] 0.03
 <!-- TOP_LANGUAGES:END -->
 
 ## Activity Feed
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=fishdev20&show_icons=true&theme=default&hide_border=true" alt="GitHub stats (light)" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fishdev20&theme=default&hide_border=true" alt="GitHub streak (light)" />
-</p>
+<!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
+<!-- PROFILE_STATS:START -->
+```text
+Run `python readme.py` to generate this section.
+```
+<!-- PROFILE_STATS:END -->
 
 ## Co-op Mode
 If you're building something interesting, feel free to reach out:

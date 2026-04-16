@@ -1,4 +1,4 @@
-name: Update top languages
+name: Update README metrics
 
 on:
   schedule:
@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate Top Languages section
+      - name: Generate README metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: ${{ github.repository_owner }}
@@ -35,5 +35,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || git commit -m "chore: update top languages"
+          git diff --staged --quiet || git commit -m "chore: update readme metrics"
           git push

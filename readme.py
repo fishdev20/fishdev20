@@ -13,8 +13,10 @@ import requests
 
 API_BASE = "https://api.github.com"
 README_PATH = "README.md"
-START_MARKER = "<!-- TOP_LANGUAGES:START -->"
-END_MARKER = "<!-- TOP_LANGUAGES:END -->"
+TOP_LANG_START_MARKER = "<!-- TOP_LANGUAGES:START -->"
+TOP_LANG_END_MARKER = "<!-- TOP_LANGUAGES:END -->"
+PROFILE_STATS_START_MARKER = "<!-- PROFILE_STATS:START -->"
+PROFILE_STATS_END_MARKER = "<!-- PROFILE_STATS:END -->"
 TOP_N = 10
 BAR_WIDTH = 20
 LANG_COL_WIDTH = 12
@@ -34,6 +36,8 @@ class Repo:
     fork: bool
     archived: bool
     disabled: bool
+    stargazers_count: int
+    forks_count: int
 
 
 def env(name: str) -> str:
@@ -95,9 +99,27 @@ def list_public_user_repos(session: requests.Session, username: str) -> List[Rep
                 fork=bool(item.get("fork")),
                 archived=bool(item.get("archived")),
                 disabled=bool(item.get("disabled")),
+                stargazers_count=int(item.get("stargazers_count", 0)),
+                forks_count=int(item.get("forks_count", 0)),
             )
         )
     return repos
+
+
+def fetch_user_profile(session: requests.Session, username: str) -> Dict[str, int]:
+    url = f"{API_BASE}/users/{username}"
+    response = session.get(url, timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
+    data = response.json()
+    if not isinstance(data, dict):
+        raise RuntimeError(
+            f"Expected dict user response for {username}, got: {type(data).__name__}"
+        )
+    return {
+        "public_repos": int(data.get("public_repos", 0)),
+        "followers": int(data.get("followers", 0)),
+        "following": int(data.get("following", 0)),
+    }
 
 
 def should_include_repo(repo: Repo, username: str) -> bool:
@@ -165,32 +187,42 @@ def render_block(language_totals: Dict[str, int]) -> str:
     return "```text\n" + "\n".join(lines) + "\n```"
 
 
-def update_readme(readme_path: str, generated_block: str) -> bool:
-    with open(readme_path, "r", encoding="utf-8") as f:
-        content = f.read()
+def render_profile_stats_block(user_profile: Dict[str, int], repos: List[Repo]) -> str:
+    total_stars = sum(repo.stargazers_count for repo in repos)
+    total_forks = sum(repo.forks_count for repo in repos)
 
+    items = [
+        ("Public Repos", user_profile["public_repos"]),
+        ("Followers", user_profile["followers"]),
+        ("Following", user_profile["following"]),
+        ("Repo Stars", total_stars),
+        ("Repo Forks", total_forks),
+    ]
+
+    label_width = max(len(label) for label, _ in items)
+    lines = [f"{label.ljust(label_width)} : {value}" for label, value in items]
+    return "```text\n" + "\n".join(lines) + "\n```"
+
+
+def replace_marked_block(
+    content: str,
+    start_marker: str,
+    end_marker: str,
+    generated_block: str,
+) -> str:
     pattern = re.compile(
-        re.escape(START_MARKER) + r"[\s\S]*?" + re.escape(END_MARKER),
+        re.escape(start_marker) + r"[\s\S]*?" + re.escape(end_marker),
         re.MULTILINE,
     )
 
     if not pattern.search(content):
         raise RuntimeError(
-            f"README markers not found. Add these markers:\n{START_MARKER}\n{END_MARKER}"
+            "README markers not found. Add these markers:\n"
+            f"{start_marker}\n{end_marker}"
         )
 
-    replacement = f"{START_MARKER}\n{generated_block}\n{END_MARKER}"
-    updated = pattern.sub(replacement, content, count=1)
-
-    if updated == content:
-        print("README is already up to date.")
-        return False
-
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(updated)
-
-    print("README updated.")
-    return True
+    replacement = f"{start_marker}\n{generated_block}\n{end_marker}"
+    return pattern.sub(replacement, content, count=1)
 
 
 def main() -> int:
@@ -207,12 +239,38 @@ def main() -> int:
     if not repos:
         raise RuntimeError("No eligible repositories found.")
 
-    language_totals = aggregate_languages(session, repos)
-    block = render_block(language_totals)
-    changed = update_readme(README_PATH, block)
+    print(f"Fetching profile data for {username}...")
+    user_profile = fetch_user_profile(session, username)
 
-    if changed:
-        print("Top Languages section regenerated successfully.")
+    language_totals = aggregate_languages(session, repos)
+    languages_block = render_block(language_totals)
+    profile_stats_block = render_profile_stats_block(user_profile, repos)
+
+    with open(README_PATH, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    updated = replace_marked_block(
+        content,
+        TOP_LANG_START_MARKER,
+        TOP_LANG_END_MARKER,
+        languages_block,
+    )
+    updated = replace_marked_block(
+        updated,
+        PROFILE_STATS_START_MARKER,
+        PROFILE_STATS_END_MARKER,
+        profile_stats_block,
+    )
+
+    if updated == content:
+        print("README is already up to date.")
+        return 0
+
+    with open(README_PATH, "w", encoding="utf-8") as f:
+        f.write(updated)
+    print("README updated.")
+
+    print("Profile stats and Top Languages regenerated successfully.")
     return 0
 
 
