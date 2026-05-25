@@ -83,7 +83,7 @@ Dockerfile   [░░░░░░░░░░░░░░░░░░░░] 0.02
 📦 Public Repos: 43
 👥 Followers: 0
 ➡️ Following: 0
-⭐ Repo Stars: 31
+⭐ Repo Stars: 30
 🍴 Repo Forks: 1
 </pre>
 <!-- PROFILE_STATS:END -->
