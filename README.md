@@ -81,7 +81,7 @@ Go           [░░░░░░░░░░░░░░░░░░░░] 0.05
 <!-- PROFILE_STATS:START -->
 <pre>
 📦 Public Repos: 45
-👥 Followers: 0
+👥 Followers: 1
 ➡️ Following: 0
 ⭐ Repo Stars: 33
 🍴 Repo Forks: 1
