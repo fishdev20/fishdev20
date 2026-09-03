@@ -63,15 +63,15 @@
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- TOP_LANGUAGES:START -->
 <pre>
-TypeScript   [█████████████████░░░] 83.73%
-JavaScript   [█░░░░░░░░░░░░░░░░░░░] 6.71%
-CSS          [█░░░░░░░░░░░░░░░░░░░] 3.61%
-SCSS         [█░░░░░░░░░░░░░░░░░░░] 3.16%
-Python       [░░░░░░░░░░░░░░░░░░░░] 0.90%
-HTML         [░░░░░░░░░░░░░░░░░░░░] 0.58%
-Java         [░░░░░░░░░░░░░░░░░░░░] 0.58%
-PLpgSQL      [░░░░░░░░░░░░░░░░░░░░] 0.42%
-EJS          [░░░░░░░░░░░░░░░░░░░░] 0.26%
+TypeScript   [█████████████████░░░] 85.81%
+JavaScript   [█░░░░░░░░░░░░░░░░░░░] 5.79%
+CSS          [█░░░░░░░░░░░░░░░░░░░] 3.29%
+SCSS         [█░░░░░░░░░░░░░░░░░░░] 2.71%
+Python       [░░░░░░░░░░░░░░░░░░░░] 0.77%
+HTML         [░░░░░░░░░░░░░░░░░░░░] 0.50%
+Java         [░░░░░░░░░░░░░░░░░░░░] 0.50%
+PLpgSQL      [░░░░░░░░░░░░░░░░░░░░] 0.36%
+EJS          [░░░░░░░░░░░░░░░░░░░░] 0.22%
 Go           [░░░░░░░░░░░░░░░░░░░░] 0.04%
 </pre>
 <!-- TOP_LANGUAGES:END -->
@@ -80,7 +80,7 @@ Go           [░░░░░░░░░░░░░░░░░░░░] 0.04
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- PROFILE_STATS:START -->
 <pre>
-📦 Public Repos: 47
+📦 Public Repos: 48
 👥 Followers: 1
 ➡️ Following: 0
 ⭐ Repo Stars: 46
