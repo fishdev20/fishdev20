@@ -105,13 +105,13 @@ I am a Software Engineer in Helsinki, Finland, focused on building reliable web,
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- TOP_LANGUAGES:START -->
 <pre>
-TypeScript   [█████████████████░░░] 85.85%
-JavaScript   [█░░░░░░░░░░░░░░░░░░░] 5.77%
-CSS          [█░░░░░░░░░░░░░░░░░░░] 3.28%
-SCSS         [█░░░░░░░░░░░░░░░░░░░] 2.70%
+TypeScript   [█████████████████░░░] 85.89%
+JavaScript   [█░░░░░░░░░░░░░░░░░░░] 5.76%
+CSS          [█░░░░░░░░░░░░░░░░░░░] 3.27%
+SCSS         [█░░░░░░░░░░░░░░░░░░░] 2.69%
 Python       [░░░░░░░░░░░░░░░░░░░░] 0.77%
 HTML         [░░░░░░░░░░░░░░░░░░░░] 0.50%
-Java         [░░░░░░░░░░░░░░░░░░░░] 0.50%
+Java         [░░░░░░░░░░░░░░░░░░░░] 0.49%
 PLpgSQL      [░░░░░░░░░░░░░░░░░░░░] 0.36%
 EJS          [░░░░░░░░░░░░░░░░░░░░] 0.22%
 Go           [░░░░░░░░░░░░░░░░░░░░] 0.04%
