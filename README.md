@@ -105,14 +105,14 @@ I am a Software Engineer in Helsinki, Finland, focused on building reliable web,
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- TOP_LANGUAGES:START -->
 <pre>
-TypeScript   [█████████████████░░░] 85.89%
-JavaScript   [█░░░░░░░░░░░░░░░░░░░] 5.76%
-CSS          [█░░░░░░░░░░░░░░░░░░░] 3.27%
-SCSS         [█░░░░░░░░░░░░░░░░░░░] 2.69%
-Python       [░░░░░░░░░░░░░░░░░░░░] 0.77%
-HTML         [░░░░░░░░░░░░░░░░░░░░] 0.50%
+TypeScript   [█████████████████░░░] 84.72%
+JavaScript   [█░░░░░░░░░░░░░░░░░░░] 5.68%
+CSS          [█░░░░░░░░░░░░░░░░░░░] 3.23%
+SCSS         [█░░░░░░░░░░░░░░░░░░░] 2.65%
+Python       [░░░░░░░░░░░░░░░░░░░░] 2.12%
+HTML         [░░░░░░░░░░░░░░░░░░░░] 0.49%
 Java         [░░░░░░░░░░░░░░░░░░░░] 0.49%
-PLpgSQL      [░░░░░░░░░░░░░░░░░░░░] 0.36%
+PLpgSQL      [░░░░░░░░░░░░░░░░░░░░] 0.35%
 EJS          [░░░░░░░░░░░░░░░░░░░░] 0.22%
 Go           [░░░░░░░░░░░░░░░░░░░░] 0.04%
 </pre>
@@ -121,7 +121,7 @@ Go           [░░░░░░░░░░░░░░░░░░░░] 0.04
 <!-- Auto-updated by readme.py. Keep START/END markers unchanged. -->
 <!-- PROFILE_STATS:START -->
 <pre>
-📦 Public Repos: 48
+📦 Public Repos: 49
 👥 Followers: 1
 ➡️ Following: 0
 ⭐ Repo Stars: 50
